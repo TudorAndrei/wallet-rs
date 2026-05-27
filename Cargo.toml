@@ -1,7 +1,13 @@
 [package]
-name = "wallet-rs"
+name = "budgetbakers-wallet-cli"
 version = "0.1.0"
 edition = "2024"
+description = "Agent-ready CLI for the BudgetBakers Wallet REST API"
+repository = "https://github.com/TudorAndrei/wallet-rs"
+readme = "README.md"
+license = "MIT"
+keywords = ["wallet", "budgetbakers", "cli"]
+categories = ["command-line-utilities"]
 
 [[bin]]
 name = "wallet"

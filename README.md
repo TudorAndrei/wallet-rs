@@ -1,8 +1,42 @@
-# wallet-rs
+# budgetbakers-wallet-cli
 
 Agent-ready Rust CLI for the BudgetBakers Wallet REST API.
 
 ## Install
+
+With mise in another project, add this to that project's `mise.toml`:
+
+```toml
+[tools]
+rust = "latest"
+"cargo:budgetbakers-wallet-cli" = "0.1.0"
+```
+
+Then run:
+
+```sh
+mise install
+```
+
+For a one-off mise install from another project:
+
+```sh
+mise use cargo:budgetbakers-wallet-cli@0.1.0
+```
+
+Or directly with Cargo after the crate is published:
+
+```sh
+cargo install budgetbakers-wallet-cli
+```
+
+Before the crate is published, install from Git:
+
+```sh
+cargo install --git https://github.com/TudorAndrei/wallet-rs --bin wallet
+```
+
+For a local development build:
 
 ```sh
 cargo build --release
